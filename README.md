@@ -9,7 +9,7 @@ Everything I have written for Claude Code, in one place. Two kinds of thing live
 
 ```sh
 # a skill, into any agent the skills CLI supports
-npx skills@latest add Abhyuday98/skills --skill claude-video-generator
+npx skills@latest add Abhyuday98/skills --skill building-ubuntu-server-disk
 
 # a plugin, into Claude Code
 /plugin marketplace add Abhyuday98/skills
@@ -22,6 +22,7 @@ npx skills@latest add Abhyuday98/skills --skill claude-video-generator
 
 | Name | Kind | What it does |
 | --- | --- | --- |
+| [building-ubuntu-server-disk](skills/building-ubuntu-server-disk/SKILL.md) | skill | Builds a bootable Ubuntu Server onto a spare SSD from a running Ubuntu machine with debootstrap and a chroot, no ISO or installer: user, SSH keys, NVIDIA driver, Docker and Tailscale preset, so the disk moves into another machine and answers SSH on first boot. |
 | [claude-video-generator](skills/claude-video-generator/SKILL.md) | skill | Produces a narrated demo or walkthrough video fully headless: a recorded terminal session, an app tour from a real browser, HTML slides, offline TTS narration, and an assembler where the audio length sets the screen time. Article: [A twenty-minute narrated film, made with no screen, no microphone and nobody at the keyboard](https://medium.com/@abhyudaysamadder/a-twenty-minute-narrated-film-made-with-no-screen-no-microphone-and-nobody-at-the-keyboard-19d4c67876fc). |
 | [cowork](plugins/cowork/skills/cowork/SKILL.md) | plugin | Cowork mode: hand over a goal, get back a verified file. Research first, the right document skill second, and it opens the result to check it before reporting. |
 | [derebrand-claude-code](plugins/derebrand-claude-code/skills/derebrand-claude-code/SKILL.md) | plugin | Renames the Claude Code VS Code extension to a neutral "Assistant" with a plain icon and no orange, and re-applies it after an extension update overwrites it. |
