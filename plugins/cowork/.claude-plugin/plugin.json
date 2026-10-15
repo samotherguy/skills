@@ -5,9 +5,9 @@
   "description": "Cowork mode for Claude Code: goal in, verified file out. Research first, format skill second, always verify.",
   "author": {
     "name": "Abhyuday Samadder",
-    "url": "https://github.com/Abhyuday98"
+    "url": "https://github.com/samotherguy"
   },
-  "homepage": "https://github.com/Abhyuday98/claude-code-cowork",
+  "homepage": "https://github.com/samotherguy/claude-code-cowork",
   "license": "MIT",
   "keywords": ["cowork", "deliverables", "docx", "pptx", "xlsx", "documents", "research"]
 }

@@ -1,6 +1,6 @@
 # greenroom plugin
 
-Sets up [greenroom](https://github.com/Abhyuday98/greenroom) for the repo you are in: a chat page behind Tailscale where someone who does not code asks for changes in plain English, watches them in a live preview, and presses Send to open a pull request. Claude Code runs headless in a git worktree of the repo with a tool list that allows editing and building and nothing else.
+Sets up [greenroom](https://github.com/samotherguy/greenroom) for the repo you are in: a chat page behind Tailscale where someone who does not code asks for changes in plain English, watches them in a live preview, and presses Send to open a pull request. Claude Code runs headless in a git worktree of the repo with a tool list that allows editing and building and nothing else.
 
 ```
 /greenroom:setup "Studio name" --owner You --port 4401 --preview-port 4323 --serve-port 8445 --allow you@github

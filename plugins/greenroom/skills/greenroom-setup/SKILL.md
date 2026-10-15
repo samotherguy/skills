@@ -5,7 +5,7 @@ description: Set up greenroom for a project. Use when asked to give a non-techni
 
 # greenroom setup
 
-greenroom (github.com/Abhyuday98/greenroom) is one Node file: a phone-friendly chat page behind Tailscale where a
+greenroom (github.com/samotherguy/greenroom) is one Node file: a phone-friendly chat page behind Tailscale where a
 non-technical person asks for changes in plain English, watches them in a live preview, and presses Send to open a
 pull request. Claude Code runs headless inside a git worktree of the repo (the playground) with a tool list that
 allows editing and building, and nothing else. One greenroom clone serves every project on the machine; each project

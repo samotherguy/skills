@@ -3,6 +3,6 @@
   "description": "Neutralize the Claude Code VS Code extension's branding (name, icon, orange accents) and re-apply it after a manual extension update.",
   "version": "1.3.0",
   "author": { "name": "Abhyuday Samadder" },
-  "repository": "https://github.com/Abhyuday98/derebrand-claude-code",
+  "repository": "https://github.com/samotherguy/derebrand-claude-code",
   "license": "MIT"
 }

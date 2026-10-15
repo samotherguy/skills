@@ -3,8 +3,8 @@
   "name": "greenroom",
   "version": "1.0.0",
   "description": "Set up greenroom for a project: a chat page for someone who doesn't code, wired into the repo, behind Tailscale, with a PR hand-off.",
-  "author": { "name": "Abhyuday Samadder", "url": "https://github.com/Abhyuday98" },
-  "homepage": "https://github.com/Abhyuday98/greenroom",
+  "author": { "name": "Abhyuday Samadder", "url": "https://github.com/samotherguy" },
+  "homepage": "https://github.com/samotherguy/greenroom",
   "license": "MIT",
   "keywords": ["greenroom", "claude-code", "tailscale", "worktree", "pull-request"]
 }

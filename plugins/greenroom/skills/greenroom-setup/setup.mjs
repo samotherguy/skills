@@ -50,7 +50,7 @@ const base = out('git symbolic-ref --short refs/remotes/origin/HEAD').replace(/^
 
 // ---------- greenroom itself ----------
 console.log(`\ngreenroom at ${GREENROOM}`);
-if (!fs.existsSync(path.join(GREENROOM, 'server.mjs'))) sh(`git clone -q https://github.com/Abhyuday98/greenroom "${GREENROOM}"`, HOME);
+if (!fs.existsSync(path.join(GREENROOM, 'server.mjs'))) sh(`git clone -q https://github.com/samotherguy/greenroom "${GREENROOM}"`, HOME);
 else sh('git pull -q --ff-only', GREENROOM);
 
 // ---------- what kind of project ----------

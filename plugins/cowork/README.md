@@ -17,7 +17,7 @@ rendered, fixes what is wrong, and tells you where the file is.
 Two lines inside Claude Code:
 
 ```
-/plugin marketplace add Abhyuday98/claude-code-cowork
+/plugin marketplace add samotherguy/claude-code-cowork
 /plugin install cowork@cowork
 ```
 
